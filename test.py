@@ -14,7 +14,7 @@ class TestCalc:
     def test_subtraction(self): # Вычитание
         assert self.calc.subtraction(10, 4) == 6  # 10 - 4 = 6
 
-    def test_adding(self): # Прибавление
+    def test_adding(self): # Сложение
         assert self.calc.adding(7, 3) == 10  # 7 + 3 = 10
 
     def teardown_mathod(self):
